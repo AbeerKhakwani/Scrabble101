@@ -1,0 +1,7 @@
+Scrabble takes single letter and outputs digit
+input:A
+output:1
+
+Scrabble takes double same letter and outputs sum of digits
+input:AA
+output:2
