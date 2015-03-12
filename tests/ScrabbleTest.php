@@ -80,6 +80,27 @@
             //Assert
             $this->assertEquals(3,$result);
         }
+        function test_scrabble_different_point_letters()
+        {   //Arrange
+            $test_scrabble = new Scrabble;
+            $input = "MdA";
+            //Act
+            $result = $test_scrabble->ScrabbleChecker($input);
+
+            //Assert
+            $this->assertEquals(6,$result);
+        }
+
+        function test_scrabble_two_threepoint_letters()
+        {   //Arrange
+            $test_scrabble = new Scrabble;
+            $input = "Mm";
+            //Act
+            $result = $test_scrabble->ScrabbleChecker($input);
+
+            //Assert
+            $this->assertEquals(6,$result);
+        }
 
 
     }

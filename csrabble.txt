@@ -13,3 +13,16 @@ output:2
 Scrabble takes  a letter of one point and a letter of two points and outputs sum of digits.
 input:"aD"
 output:3
+
+
+Scrabble takes  one letter of three point outputs digit.
+input:"m"
+output:3
+
+Scrabble takes  three letters of one point and two points and three points outputs sum of digits.
+input:"mda"
+output:6
+
+Scrabble takes 2 letters of 3  points and outputs sum of digits.
+input:"MM"
+output:6
