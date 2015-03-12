@@ -9,7 +9,7 @@ class Scrabble {
           $two_point_array = array("d","g");
           $three_point_array = array("b","c","m","p");
           $four_point_array = array("f","h","v","w","y");
-          $five_point_array = array("f");
+          $five_point_array = array("k");
           $eight_point_array = array("j","x");
           $ten_point_array = array("q","z");
 

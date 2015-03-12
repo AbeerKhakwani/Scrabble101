@@ -26,3 +26,16 @@ output:6
 Scrabble takes 2 letters of 3  points and outputs sum of digits.
 input:"MM"
 output:6
+
+
+Scrabble takes one letter of 4  points and outputs  digit.
+input:"f"
+output:4
+
+Scrabble takes one letter of 5  points and outputs  digit.
+input:"k"
+output:5
+
+Scrabble takes two letters of 5  points and outputs  digit.
+input:"kK"
+output:10

@@ -102,6 +102,39 @@
             $this->assertEquals(6,$result);
         }
 
+        function test_scrabble_four_letters()
+        {   //Arrange
+            $test_scrabble = new Scrabble;
+            $input = "F";
+            //Act
+            $result = $test_scrabble->ScrabbleChecker($input);
+
+            //Assert
+            $this->assertEquals(4,$result);
+        }
+
+        function test_scrabble_five_letters()
+        {   //Arrange
+            $test_scrabble = new Scrabble;
+            $input = "k";
+            //Act
+            $result = $test_scrabble->ScrabbleChecker($input);
+
+            //Assert
+            $this->assertEquals(5,$result);
+        }
+
+        function test_scrabble_two_five_letters()
+        {   //Arrange
+            $test_scrabble = new Scrabble;
+            $input = "kK";
+            //Act
+            $result = $test_scrabble->ScrabbleChecker($input);
+
+            //Assert
+            $this->assertEquals(10,$result);
+        }
+
 
     }
 
