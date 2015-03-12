@@ -37,7 +37,7 @@
         }
 
 
-        function test_scrabble_LowerCase_letter()
+        function test_scrabble_Two_letter()
         {   //Arrange
             $test_scrabble = new Scrabble;
             $input = "Aa";

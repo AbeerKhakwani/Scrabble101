@@ -6,6 +6,6 @@ Scrabble takes single small letter and outputs digit
 input:a
 output:1
 
-Scrabble takes double same letter and outputs sum of digits
-input:AA
+Scrabble takes  small letter and capitalletter outputs sum of digits
+input:Ae
 output:2
