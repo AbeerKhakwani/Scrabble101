@@ -8,6 +8,7 @@ class Scrabble {
           $one_point_array = array("a","e","i","o","u","l","s","n","r","t");
           $two_point_array = array("d","g");
           $three_point_array = array("b","c","m","p");
+          $four_point_array = array("f","h","v","w","y");
 
          foreach ($split_array_input as $letter)
          {
@@ -28,6 +29,20 @@ class Scrabble {
                  $adder += 3;
 
               }
+              elseif (in_array($letter,$four_point_array))
+              {
+
+                 $adder += 4;
+
+              }
+              elseif (in_array($letter,$five_point_array))
+              {
+
+                 $adder += 5;
+
+              }
+
+
 
 
 
