@@ -1,6 +1,6 @@
 <?php
 
-class Scrabble {
+class ScrabbleArray {
 
      function ScrabbleChecker($input)
      {    $string= strtolower($input);
