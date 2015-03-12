@@ -59,7 +59,27 @@
             $this->assertEquals(2,$result);
         }
 
+        function test_scrabble_two_two_point_letters()
+        {   //Arrange
+            $test_scrabble = new Scrabble;
+            $input = "DD";
+            //Act
+            $result = $test_scrabble->ScrabbleChecker($input);
 
+            //Assert
+            $this->assertEquals(4,$result);
+        }
+
+        function test_scrabble_three_point_letters()
+        {   //Arrange
+            $test_scrabble = new Scrabble;
+            $input = "M";
+            //Act
+            $result = $test_scrabble->ScrabbleChecker($input);
+
+            //Assert
+            $this->assertEquals(3,$result);
+        }
 
 
     }

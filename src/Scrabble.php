@@ -22,6 +22,13 @@ class Scrabble {
                  $adder += 2;
 
               }
+              elseif (in_array($letter,$three_point_array))
+              {
+
+                 $adder += 3;
+
+              }
+
 
 
          }
