@@ -135,6 +135,17 @@
             $this->assertEquals(10,$result);
         }
 
+        function test_scrabble_allLetters_letters()
+        {   //Arrange
+            $test_scrabble = new Scrabble;
+            $input = "Khakwani";
+            //Act
+            $result = $test_scrabble->ScrabbleChecker($input);
+
+            //Assert
+            $this->assertEquals(22,$result);
+        }
+
 
     }
 
