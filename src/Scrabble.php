@@ -9,6 +9,7 @@ class Scrabble {
           $two_point_array = array("d","g");
           $three_point_array = array("b","c","m","p");
           $four_point_array = array("f","h","v","w","y");
+          $five_point_array = array("f");
 
          foreach ($split_array_input as $letter)
          {
