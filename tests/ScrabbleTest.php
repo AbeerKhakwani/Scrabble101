@@ -1,8 +1,9 @@
 <?php
 
 
-   require_once "src/Scrabble.php";
 
+   require_once "src/ScrabbleArray.php";
+   
 
 
 
@@ -138,12 +139,12 @@
         function test_scrabble_allLetters_letters()
         {   //Arrange
             $test_scrabble = new Scrabble;
-            $input = "Khakwani";
+            $input = "Abeer";
             //Act
             $result = $test_scrabble->ScrabbleChecker($input);
 
             //Assert
-            $this->assertEquals(22,$result);
+            $this->assertEquals(7,$result);
         }
 
 
