@@ -23,6 +23,19 @@
 
         }
 
+        function test_scrabble_letter()
+        {   //Arrange
+            $test_scrabble = new Scrabble;
+            $input = "a";
+            //Act
+            $result = $test_scrabble->ScrabbleChecker($input);
+
+            //Assert
+            $this->assertEquals(1,$result);
+
+
+        }
+
 
 
 
