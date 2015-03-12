@@ -37,6 +37,18 @@
         }
 
 
+        function test_scrabble_LowerCase_letter()
+        {   //Arrange
+            $test_scrabble = new Scrabble;
+            $input = "Aa";
+            //Act
+            $result = $test_scrabble->ScrabbleChecker($input);
+
+            //Assert
+            $this->assertEquals(2,$result);
+
+
+        }
 
 
 
