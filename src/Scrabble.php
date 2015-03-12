@@ -2,9 +2,9 @@
 class Scrabble {
 
      function ScrabbleChecker($input)
-     {
+     {    $string= strtolower($input);
           $adder= 0;
-          if ($input == "A")
+          if ($string == "a")
           {
 
              $adder.= 1;
