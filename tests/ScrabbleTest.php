@@ -46,8 +46,17 @@
 
             //Assert
             $this->assertEquals(2,$result);
+        }
 
+        function test_scrabble_Two_point_letters()
+        {   //Arrange
+            $test_scrabble = new Scrabble;
+            $input = "D";
+            //Act
+            $result = $test_scrabble->ScrabbleChecker($input);
 
+            //Assert
+            $this->assertEquals(2,$result);
         }
 
 
